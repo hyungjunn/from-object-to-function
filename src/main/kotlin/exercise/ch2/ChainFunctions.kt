@@ -1,4 +1,4 @@
-package ch2
+package exercise.ch2
 
 typealias FUN<A, B> = (A) -> B
 

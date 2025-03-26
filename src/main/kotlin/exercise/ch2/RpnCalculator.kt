@@ -1,4 +1,4 @@
-package ch2
+package exercise.ch2
 
 object RpnCalculator {
     fun calc(expression: String): Double {

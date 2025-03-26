@@ -1,4 +1,4 @@
-package ch2
+package exercise.ch2
 
 import assertk.assertThat
 import assertk.assertions.isEqualTo
