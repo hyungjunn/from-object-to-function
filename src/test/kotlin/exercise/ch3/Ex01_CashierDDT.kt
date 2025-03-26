@@ -5,7 +5,7 @@ import com.ubertob.pesticide.core.DomainDrivenTest
 import exercise.ch3.Item.carrot
 import exercise.ch3.Item.milk
 
-class E01_CashierDDT : DomainDrivenTest<CashierActions>(allActions) {
+class Ex01_CashierDDT : DomainDrivenTest<CashierActions>(allActions) {
     val alice by NamedActor(::CustomerActor)
 
     @DDT

@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test
 import strikt.api.expectThat
 import strikt.assertions.isEqualTo
 
-class E04_SimpleTemplateTest {
+class Ex04_SimpleTemplateTest {
     @Test
     fun `happy birthday template`() {
         val template = """

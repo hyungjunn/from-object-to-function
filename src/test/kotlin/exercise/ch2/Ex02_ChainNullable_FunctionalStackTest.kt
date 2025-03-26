@@ -4,7 +4,7 @@ import assertk.assertThat
 import assertk.assertions.isEqualTo
 import org.junit.jupiter.api.Test
 
-class E02_FunctionalStackTest {
+class Ex02_ChainNullable_FunctionalStackTest {
     @Test
     fun push() {
         val stack1 = FunctionalStack<Char>()

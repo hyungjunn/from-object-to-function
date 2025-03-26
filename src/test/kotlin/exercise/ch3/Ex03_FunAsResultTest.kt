@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test
 import strikt.api.expectThat
 import strikt.assertions.isEqualTo
 
-class E03_FunAsResultTest {
+class Ex03_FunAsResultTest {
     @Test
     fun `char at pos function builder`() {
         val myCharAtPosKotlin = buildCharAtPos("Kotlin")
