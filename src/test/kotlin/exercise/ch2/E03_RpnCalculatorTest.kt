@@ -4,7 +4,7 @@ import assertk.assertThat
 import assertk.assertions.isEqualTo
 import org.junit.jupiter.api.Test
 
-class RpnCalculatorTest {
+class E03_RpnCalculatorTest {
     @Test
     fun `simple sum`() {
         val res = RpnCalculator.calc("4 5 +")

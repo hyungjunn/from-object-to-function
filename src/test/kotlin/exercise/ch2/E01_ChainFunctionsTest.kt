@@ -4,7 +4,7 @@ import assertk.assertThat
 import assertk.assertions.isEqualTo
 import kotlin.test.Test
 
-class ChainFunctionsTest {
+class E01_ChainFunctionsTest {
     @Test
     fun `integer function composition`() {
         val double: FUN<Int, Int> = { it * 2 }
